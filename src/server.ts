@@ -1,7 +1,7 @@
-// import dotenv from "dotenv";
+import dotenv from "dotenv";
 import app from "./app";
 
-// dotenv.config();
+dotenv.config();
 
 export const port = process.env.PORT || 7777;
 console.log(process.env.PORT);
